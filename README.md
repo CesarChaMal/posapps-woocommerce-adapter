@@ -1,0 +1,2 @@
+# posapps-woocommerce-adapter
+
