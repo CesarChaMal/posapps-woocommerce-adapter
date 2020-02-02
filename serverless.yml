@@ -1,0 +1,36 @@
+service: posapps-woocom-adapter
+
+provider:
+  name: aws
+  runtime: java8
+  memorySize: 3008
+  timeout: 60
+  region: eu-west-1
+
+package:
+  artifact: build/distributions/woocom-1.0-SNAPSHOT.zip
+
+functions:
+  customer:
+    handler: io.posapps.woocom.Application
+    events:
+      - http:
+          path: woocustomer
+          method: post
+          cors: true
+      - http:
+          path: customer
+          method: post
+          cors: true
+      - http:
+          path: customer
+          method: put
+          cors: true
+      - http:
+          path: customer
+          method: delete
+          cors: true
+      - http:
+          path: status
+          method: get
+          cors: true

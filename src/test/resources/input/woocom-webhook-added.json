@@ -1,0 +1,61 @@
+{
+  "resource": "/woocustomer",
+  "path": "/woocom/woocustomer",
+  "httpMethod": "POST",
+  "headers": {
+    "Accept": "*/*",
+    "Accept-Encoding": "deflate, gzip",
+    "CloudFront-Forwarded-Proto": "https",
+    "CloudFront-Is-Desktop-Viewer": "true",
+    "CloudFront-Is-Mobile-Viewer": "false",
+    "CloudFront-Is-SmartTV-Viewer": "false",
+    "CloudFront-Is-Tablet-Viewer": "false",
+    "CloudFront-Viewer-Country": "GB",
+    "Content-Type": "application/x-www-form-urlencoded",
+    "Host": "dev.posapps.io",
+    "Referer": "https://dev.posapps.io/woocom/woocustomer",
+    "User-Agent": "WooCommerce/3.3.3 Hookshot (WordPress/4.9.4)",
+    "Via": "1.1 38af504d24870529c0e38a17f07295db.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Id": "U3Bg4LPbSMKm76apeL2sFkgxN44r-hzHVVakSDauDJLUiDh1FPjiAg==",
+    "X-Amzn-Trace-Id": "Root=1-5aaa7aca-2498592a9105e77fc11102c8",
+    "X-Forwarded-For": "185.151.28.62, 52.46.38.73",
+    "X-Forwarded-Port": "443",
+    "X-Forwarded-Proto": "https"
+  },
+  "queryStringParameters": null,
+  "pathParameters": null,
+  "stageVariables": {
+    "profile": "local",
+    "dataSourceUrl": "jdbc:mysql://127.0.0.1:3306/posapps_woo_customer_test?useSSL=false",
+    "dataSourceUsername": "posapps_test",
+    "dataSourcePassword": "password"
+  },
+  "requestContext": {
+    "requestTime": "15/Mar/2018:13:53:14 +0000",
+    "path": "/woocom/woocustomer",
+    "accountId": "117001727020",
+    "protocol": "HTTP/1.1",
+    "resourceId": "qq0fr4",
+    "stage": "dev",
+    "requestTimeEpoch": 1521121994506,
+    "requestId": "34ee3714-2858-11e8-a60c-577e1291f879",
+    "identity": {
+      "cognitoIdentityPoolId": null,
+      "accountId": null,
+      "cognitoIdentityId": null,
+      "caller": null,
+      "sourceIp": "185.151.28.62",
+      "accessKey": null,
+      "cognitoAuthenticationType": null,
+      "cognitoAuthenticationProvider": null,
+      "userArn": null,
+      "userAgent": "WooCommerce/3.3.3 Hookshot (WordPress/4.9.4)",
+      "user": null
+    },
+    "resourcePath": "/woocustomer",
+    "httpMethod": "POST",
+    "apiId": "6wv110iyz3"
+  },
+  "body": "webhook_id=2",
+  "isBase64Encoded": false
+}

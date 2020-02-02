@@ -1,0 +1,67 @@
+{
+  "resource": "/customer",
+  "path": "/woocom/customer",
+  "httpMethod": "DELETE",
+  "headers": {
+    "Accept": "*/*",
+    "Accept-Encoding": "deflate, gzip",
+    "CloudFront-Forwarded-Proto": "https",
+    "CloudFront-Is-Desktop-Viewer": "true",
+    "CloudFront-Is-Mobile-Viewer": "false",
+    "CloudFront-Is-SmartTV-Viewer": "false",
+    "CloudFront-Is-Tablet-Viewer": "false",
+    "CloudFront-Viewer-Country": "IE",
+    "Content-Type": "application/json",
+    "Host": "dev.posapps.io",
+    "Referer": "https://dev.posapps.io/woocom/customer",
+    "User-Agent": "WooCommerce/3.2.4 Hookshot (WordPress/4.9)",
+    "Via": "1.1 e89112a33e2a82b9499df7423108ff6b.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Id": "G5s1yfxsB0bKMJ7VXV6xsVhCQ-pa30HfsKrZdwtrMpcJ1Xos7NNDJw==",
+    "X-Amzn-Trace-Id": "Root=1-5a1dc49b-1449fcb07fd70d6c24ce9c28",
+    "X-Forwarded-For": "54.194.222.166, 54.240.150.95",
+    "X-Forwarded-Port": "443",
+    "X-Forwarded-Proto": "https",
+    "X-NewRelic-ID": "UgACVVNUGwEJXFdVAwE=",
+    "X-NewRelic-Transaction": "PxQDWQNWDlcCVVVWDwIOBFxSFB8EBw8RVU4aAAxaAlAGBw9QBgUABgYHD0NKQVoDVAYDVwQAFTs="
+  },
+  "queryStringParameters": {
+    "domain" : "webdemo.unicenta.org",
+    "email"  : "hugh.net@mac.com"
+  },
+  "pathParameters": null,
+  "stageVariables": {
+    "profile": "local",
+    "dataSourceUrl": "jdbc:mysql://127.0.0.1:3306/posapps_woo_customer_test?useSSL=false",
+    "dataSourceUsername": "posapps_test",
+    "dataSourcePassword": "password"
+  },
+  "requestContext": {
+    "requestTime": "28/Nov/2017:20:18:35 +0000",
+    "path": "/woocom/customer",
+    "accountId": "117001727020",
+    "protocol": "HTTP/1.1",
+    "resourceId": "54af9r",
+    "stage": "dev",
+    "requestTimeEpoch": 1511900315728,
+    "requestId": "500d75a8-d479-11e7-8555-73fd1eeb2c75",
+    "identity": {
+      "cognitoIdentityPoolId": null,
+      "accountId": null,
+      "cognitoIdentityId": null,
+      "caller": null,
+      "apiKey": "",
+      "sourceIp": "54.194.222.166",
+      "accessKey": null,
+      "cognitoAuthenticationType": null,
+      "cognitoAuthenticationProvider": null,
+      "userArn": null,
+      "userAgent": "WooCommerce/3.2.4 Hookshot (WordPress/4.9)",
+      "user": null
+    },
+    "resourcePath": "/customer",
+    "httpMethod": "DELETE",
+    "apiId": "6wv110iyz3"
+  },
+  "body": null,
+  "isBase64Encoded": false
+}
